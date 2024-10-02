@@ -29,8 +29,9 @@ int servovLimitLow = 30;    //Minimum Limit Of Vertical Servo
 int ldrtopr = A4;  //Top R LDR
 int ldrbotr = A3;  //Bottom R LDR
 int ldrtopl = A1;  //Top L LDR
-int ldrbotl = A0;  //Bottom L LDR
+int ldrbotl = A0; //Bottom L LDR
 
+float voltage = 0;
 void setup() {
   pinMode(led1, OUTPUT);
   pinMode(led2, OUTPUT);
